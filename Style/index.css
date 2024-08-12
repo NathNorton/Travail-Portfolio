@@ -1,0 +1,68 @@
+.header__nav__logo, .header__nav__menu {
+display: flex;
+flex-direction: row ;
+gap: 2rem;
+justify-content: space-between;
+list-style-type: none;
+}
+
+.header__nav__menu__lien a {
+    text-decoration: none;
+}
+
+.header__nav__logo a {
+    text-decoration: none;
+}
+
+.main__profil__image {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.main__profil {
+display: flex;
+align-items: center;
+}
+
+.main__profil__bouttons {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.main__profil__bouttons__cv__lien {
+    text-decoration: none
+}
+
+.main__experience__job {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main__projet1__description, .main__projet1__appercu__image {
+    display: flex;
+    flex-direction: row;
+}
+
+.main__projet__appercu {
+    display: flex;
+    align-items: flex-start;
+}
+
+.main__projet__appercu__image {
+    height: 210px;
+    width: 410px;
+}
+
+.main__projet__appercu__description {
+    margin-right: 200px;
+}
+
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
